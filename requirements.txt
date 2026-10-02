@@ -1,0 +1,10 @@
+# Versions used to produce the deposited files (Python 3.12.12).
+numpy==2.4.2
+scipy==1.17.0
+pandas==3.0.0
+scikit-learn==1.8.0
+laspy==2.7.0
+pyproj==3.7.2
+matplotlib==3.10.8
+openpyxl==3.1.5
+folium==0.20.0

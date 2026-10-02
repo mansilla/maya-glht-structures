@@ -1,0 +1,16 @@
+https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Out_of_the_Yuc_NFI_May2013/metadata/AMIGACarb_Out_of_the_Yuc_NFI_May2013_metadata.pdf
+https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Out_of_the_Yuc_GLAS_May2013/metadata/AMIGACarb_Out_of_the_Yuc_GLAS_May2013_metadata.pdf
+https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Yuc_North_2_NFI_Apr2013/metadata/AMIGACarb_Yuc_North_2_NFI_Apr2013_metadata.pdf
+https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Yuc_North_2_GLAS_Apr2013/metadata/AMIGACarb_Yuc_North_2_GLAS_Apr2013_metadata.pdf
+https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Yuc_Norte_NFI_Apr2013/metadata/AMIGACarb_Yuc_Norte_NFI_Apr2013_metadata.pdf
+https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Yuc_Norte_GLAS_Apr2013/metadata/AMIGACarb_Yuc_Norte_GLAS_Apr2013_metadata.pdf
+https://glihtdata.gsfc.nasa.gov/files/G-LiHT/Kuiic1_Apr2013/metadata/Kuiic1_Apr2013_metadata.pdf
+https://glihtdata.gsfc.nasa.gov/files/G-LiHT/Kuiic2_Apr2013/metadata/Kuiic2_Apr2013_metadata.pdf
+https://glihtdata.gsfc.nasa.gov/files/G-LiHT/Kuiic3_Apr2013/metadata/Kuiic3_Apr2013_metadata.pdf
+https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Yuc_Centro_GLAS_Apr2013/metadata/AMIGACarb_Yuc_Centro_GLAS_Apr2013_metadata.pdf
+https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Yuc_Centro_NFI_Apr2013/metadata/AMIGACarb_Yuc_Centro_NFI_Apr2013_metadata.pdf
+https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Yuc_South_GLAS_Apr2013/metadata/AMIGACarb_Yuc_South_GLAS_Apr2013_metadata.pdf
+https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Yuc_South_NFI_Apr2013/metadata/AMIGACarb_Yuc_South_NFI_Apr2013_metadata.pdf
+https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Chiap_Campeche_NFI_Apr2013/metadata/AMIGACarb_Chiap_Campeche_NFI_Apr2013_metadata.pdf
+https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Chiaps_1_GLAS_Apr2013/metadata/AMIGACarb_Chiaps_1_GLAS_Apr2013_metadata.pdf
+https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Chiaps_1_NFI_Apr2013/metadata/AMIGACarb_Chiaps_1_NFI_Apr2013_metadata.pdf

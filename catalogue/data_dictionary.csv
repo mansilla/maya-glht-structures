@@ -1,0 +1,62 @@
+table,column,description_en,descripcion_es
+detections_tau016,source_folder,Regional G-LiHT dataset the tile belongs to (16 values).,Dataset regional G-LiHT al que pertenece el tile (16 valores).
+detections_tau016,filename,LAS tile the detection was found in. Tiles are processed independently.,Tile LAS en el que se encontró la detección. Los tiles se procesan por separado.
+detections_tau016,building_id,"Sequential id of the candidate inside its tile; (filename, building_id) is the unique key.","Id secuencial del candidato dentro de su tile; (filename, building_id) es la clave única."
+detections_tau016,latitude,"Centroid latitude, WGS84 decimal degrees.","Latitud del centroide, WGS84 grados decimales."
+detections_tau016,longitude,"Centroid longitude, WGS84 decimal degrees.","Longitud del centroide, WGS84 grados decimales."
+detections_tau016,easting,"Centroid UTM easting (m) in the tile's zone: 15N for six datasets, 16N for ten; do not mix zones.","Este UTM del centroide (m) en la zona del tile: 15N en seis datasets, 16N en diez; no mezclar zonas."
+detections_tau016,northing,"Centroid UTM northing (m), same zone as easting.","Norte UTM del centroide (m), misma zona que easting."
+detections_tau016,width_m,"Long side of the fitted rectangle (m), from PCA of the component cells.","Lado largo del rectángulo ajustado (m), por PCA de las celdas del componente."
+detections_tau016,height_m,Short side of the fitted rectangle (m). Not a height: the name is historical.,Lado corto del rectángulo ajustado (m). No es una altura: el nombre es heredado.
+detections_tau016,area_m2,Planimetric area of the component (m²) = number of 2 m cells × 4.,Área planimétrica del componente (m²) = número de celdas de 2 m × 4.
+detections_tau016,orientation_deg,"Azimuth of the long axis, degrees from east, axial (0 ≡ 180). Quantised by the 2 m raster.","Azimut del eje largo, grados desde el este, axial (0 ≡ 180). Cuantizado por el raster de 2 m."
+detections_tau016,aspect_ratio,width_m / height_m (≥ 1).,width_m / height_m (≥ 1).
+detections_tau016,rectangularity,"Component area / fitted-rectangle area, in [0, 1]. Score term (w = 0.10).","Área del componente / área del rectángulo ajustado, en [0, 1]. Término del score (w = 0.10)."
+detections_tau016,wall_score,"Mass concentrated in the outer 25 % band of the rectangle, rescaled to [0, 1]. Score term (w = 0.15).","Masa concentrada en la banda exterior del 25 % del rectángulo, reescalada a [0, 1]. Término del score (w = 0.15)."
+detections_tau016,edge_density_ratio,"Raw-return density near the rectangle edges / density inside. Score term uses max(0, x − 1) (w = 0.10).","Densidad de retornos crudos en los bordes / densidad interior. El score usa max(0, x − 1) (w = 0.10)."
+detections_tau016,angle_score,"Right-angle signal: concentration of edge normals in two perpendicular peaks, [0, 1]. Score term (w = 0.30).","Señal de ángulo recto: concentración de las normales de borde en dos picos perpendiculares, [0, 1]. Término del score (w = 0.30)."
+detections_tau016,template_score,"Normalised cross-correlation with a synthetic rectangular ring, clipped at 0. Score term (w = 0.20).","Correlación cruzada normalizada con un anillo rectangular sintético, recortada en 0. Término del score (w = 0.20)."
+detections_tau016,dominant_orientation_deg,Orientation of the dominant gradient peak (degrees). Equals orientation_deg in this catalogue.,Orientación del pico de gradiente dominante (grados). Igual a orientation_deg en este catálogo.
+detections_tau016,shape_type,Shape family. Always 'rectangular' here; the circular family is not published.,Familia de forma. Siempre 'rectangular' aquí; la familia circular no se publica.
+detections_tau016,circular_score,"Combined circular evidence, [0, 1]. Diagnostic only; not part of the building score.","Evidencia circular combinada, [0, 1]. Solo diagnóstico; no forma parte del building score."
+detections_tau016,circ_template_score,"Correlation with an annular ring template, [0, 1]. Diagnostic only.","Correlación con una plantilla anular, [0, 1]. Solo diagnóstico."
+detections_tau016,radial_symmetry,"Constancy of the boundary radius, [0, 1]. Diagnostic only (0 when not computed).","Constancia del radio del contorno, [0, 1]. Solo diagnóstico (0 si no se calculó)."
+detections_tau016,directional_isotropy,"Flatness of the gradient-direction histogram, [0, 1]. Diagnostic only.","Planitud del histograma de direcciones de gradiente, [0, 1]. Solo diagnóstico."
+detections_tau016,roundness,"Closeness of the aspect ratio to 1, [0, 1]. Diagnostic only.","Cercanía de la razón de aspecto a 1, [0, 1]. Solo diagnóstico."
+detections_tau016,diameter_m,Mean boundary diameter of the circular fit (m). Diagnostic only.,Diámetro medio del contorno del ajuste circular (m). Solo diagnóstico.
+detections_tau016,peak_height_m,Peak depth of the low-relief residual inside the component (m). Gate: 0.25–1.80 m. Despite the name it is a depth below the background.,Profundidad pico del residuo de bajo relieve dentro del componente (m). Compuerta: 0.25–1.80 m. Pese al nombre es una profundidad bajo el fondo.
+detections_tau016,mean_height_m,Mean depth of the residual inside the component (m). Gate: ≥ 0.15 m. Feeds the height term (w = 0.10).,Profundidad media del residuo dentro del componente (m). Compuerta: ≥ 0.15 m. Alimenta el término height (w = 0.10).
+detections_tau016,building_confidence,"The building score (§2.4), in [0, 1]. The published cut is building_confidence ≥ τ = 0.16.","El building score (§2.4), en [0, 1]. El corte publicado es building_confidence ≥ τ = 0.16."
+detections_tau016,confidence_raw,The score before any cross-family quantile matching. Identical to building_confidence for rectangular candidates.,El score antes de cualquier igualación por cuantiles entre familias. Idéntico a building_confidence en candidatos rectangulares.
+detections_tau016,num_ground_points,Raw LiDAR returns near the modelled ground inside the bounding box.,Retornos LiDAR crudos cerca del suelo modelado dentro de la caja envolvente.
+detections_tau016,num_elevated_points,Raw LiDAR returns inside the component's residual band.,Retornos LiDAR crudos dentro de la banda de residuo del componente.
+detections_tau016,agglomeration_id,"Id of the agglomeration (DBSCAN, 50 m, ≥ 3). 1 = largest. −1 = isolated (no agglomeration).","Id de la aglomeración (DBSCAN, 50 m, ≥ 3). 1 = la mayor. −1 = aislada (sin aglomeración)."
+detections_tau016,agglomeration_n,Number of published detections in the same agglomeration (0 if isolated).,Número de detecciones publicadas en la misma aglomeración (0 si aislada).
+detections_tau016,agglomeration_class,"Size class of the agglomeration: isolated, patio group (3–4), hamlet (5–9), small village (10–19), village (20–49), large settlement (≥ 50).","Clase de tamaño de la aglomeración: isolated, patio group (3–4), hamlet (5–9), small village (10–19), village (20–49), large settlement (≥ 50)."
+detections_tau016,nn_dist_m,"Distance to the nearest other published detection (m), any tile, any agglomeration.","Distancia a la detección publicada más cercana (m), en cualquier tile y aglomeración."
+detections_tau016,canopy_cover,"Canopy cover over the footprint: fraction of first returns more than 2 m above the min-Z ground, in a disc of half the long side + 2 m around the centroid. Empty when fewer than 5 returns.","Cobertura de dosel sobre la huella: fracción de primeros retornos a más de 2 m del suelo (mínimo Z), en un disco de medio lado mayor + 2 m alrededor del centroide. Vacío si hay menos de 5 retornos."
+detections_tau016,canopy_p95_m,95th percentile of return height above ground in that disc (m): an upper canopy height.,Percentil 95 de la altura de los retornos sobre el suelo en ese disco (m): altura del dosel superior.
+detections_tau016,canopy_class,"under canopy (cover >= 0.5), partial (0.2-0.5), open (< 0.2).","under canopy (cobertura >= 0.5), partial (0.2-0.5), open (< 0.2)."
+agglomerations_tau016,agglomeration_id,"Id, 1 = largest; joins detections_tau016.agglomeration_id.","Id, 1 = la mayor; se une con detections_tau016.agglomeration_id."
+agglomerations_tau016,size_class,"patio group (3–4), hamlet (5–9), small village (10–19), village (20–49), large settlement (≥ 50).","patio group (3–4), hamlet (5–9), small village (10–19), village (20–49), large settlement (≥ 50)."
+agglomerations_tau016,n_structures,Number of published detections in the agglomeration.,Número de detecciones publicadas en la aglomeración.
+agglomerations_tau016,latitude,Mean latitude of the members (WGS84).,Latitud media de los miembros (WGS84).
+agglomerations_tau016,longitude,Mean longitude of the members (WGS84).,Longitud media de los miembros (WGS84).
+agglomerations_tau016,extent_m,Diagonal of the bounding box of the members (m).,Diagonal de la caja envolvente de los miembros (m).
+agglomerations_tau016,hull_area_ha,Area of the convex hull of the members (ha); 0 if collinear.,Área de la envolvente convexa de los miembros (ha); 0 si son colineales.
+agglomerations_tau016,density_per_ha,n_structures / hull_area_ha; empty when the hull has no area.,n_structures / hull_area_ha; vacío cuando la envolvente no tiene área.
+agglomerations_tau016,nn_median_m,Median nearest-neighbour distance among the members (m).,Mediana de la distancia al vecino más cercano entre los miembros (m).
+agglomerations_tau016,score_mean,Mean building score of the members.,Score medio de los miembros.
+agglomerations_tau016,score_median,Median building score of the members.,Score mediano de los miembros.
+agglomerations_tau016,score_max,Maximum building score among the members.,Score máximo entre los miembros.
+agglomerations_tau016,area_m2_median,Median footprint area of the members (m²).,Área mediana de huella de los miembros (m²).
+agglomerations_tau016,area_m2_max,Largest footprint in the agglomeration (m²).,Huella mayor de la aglomeración (m²).
+agglomerations_tau016,area_m2_sum,Sum of footprint areas (m²): built surface.,Suma de áreas de huella (m²): superficie construida.
+agglomerations_tau016,n_over_200m2,Members with footprint > 200 m² (platform-sized).,Miembros con huella > 200 m² (tamaño plataforma).
+agglomerations_tau016,peak_depth_mean_m,Mean of peak_height_m over the members (m).,Media de peak_height_m sobre los miembros (m).
+agglomerations_tau016,orientation_coherence,"Mean resultant length of the doubled orientations, [0, 1]: 1 = all members share one axis, ≈ 0 = no shared axis.","Longitud resultante media de las orientaciones dobladas, [0, 1]: 1 = todos comparten un eje, ≈ 0 = sin eje común."
+agglomerations_tau016,orientation_mean_deg,"Axial mean orientation of the members (degrees from east, 0–180).","Orientación media axial de los miembros (grados desde el este, 0–180)."
+agglomerations_tau016,n_tiles,Number of LAS tiles the members come from (> 1 = crosses a tile edge).,Número de tiles LAS de los miembros (> 1 = cruza un borde de tile).
+agglomerations_tau016,n_datasets,Number of regional datasets the members come from.,Número de datasets regionales de los miembros.
+agglomerations_tau016,source_folder,Most frequent dataset among the members.,Dataset más frecuente entre los miembros.
+agglomerations_tau016,tiles,"All member tiles, ';'-separated.","Todos los tiles de los miembros, separados por ';'."

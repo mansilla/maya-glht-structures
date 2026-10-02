@@ -1,0 +1,141 @@
+{
+  "tau": 0.16,
+  "eps_m": 50.0,
+  "min_samples": 3,
+  "published": 24805,
+  "tiles": 508,
+  "datasets": 16,
+  "agglomerations": 1452,
+  "grouped": 8508,
+  "grouped_frac": 0.3429953638379359,
+  "isolated": 16297,
+  "by_class": {
+    "patio group": {
+      "groups": 925,
+      "structures": 3060
+    },
+    "hamlet": {
+      "groups": 405,
+      "structures": 2561
+    },
+    "small village": {
+      "groups": 88,
+      "structures": 1133
+    },
+    "village": {
+      "groups": 23,
+      "structures": 723
+    },
+    "large settlement": {
+      "groups": 11,
+      "structures": 1031
+    }
+  },
+  "cross_tile": 41,
+  "cross_dataset": 28,
+  "largest_n": [
+    188,
+    141,
+    128,
+    90,
+    88,
+    83,
+    78,
+    70,
+    58,
+    56
+  ],
+  "n_structures_median": 4.0,
+  "extent_m_median": 67.75,
+  "nn_median_m_median": 19.95,
+  "orientation_coherence_median": 0.396,
+  "orientation_coherence_q75": 0.572,
+  "nn_dist_isolated_median_m": 80.5,
+  "nn_dist_grouped_median_m": 20.0,
+  "score_mean_grouped": 0.2636718382698636,
+  "score_mean_isolated": 0.27875688777075536,
+  "area_median_grouped": 56.0,
+  "area_median_isolated": 60.0,
+  "by_dataset": {
+    "AMIGACarb_Chiap_Campeche_NFI_Apr2013": {
+      "published": 957,
+      "grouped": 113,
+      "groups": 29
+    },
+    "AMIGACarb_Chiaps_1_GLAS_Apr2013": {
+      "published": 2064,
+      "grouped": 256,
+      "groups": 72
+    },
+    "AMIGACarb_Chiaps_1_NFI_Apr2013": {
+      "published": 1939,
+      "grouped": 390,
+      "groups": 83
+    },
+    "AMIGACarb_Out_of_the_Yuc_GLAS_May2013": {
+      "published": 4497,
+      "grouped": 2312,
+      "groups": 392
+    },
+    "AMIGACarb_Out_of_the_Yuc_NFI_May2013": {
+      "published": 1088,
+      "grouped": 460,
+      "groups": 86
+    },
+    "AMIGACarb_Yuc_Centro_GLAS_Apr2013": {
+      "published": 1793,
+      "grouped": 685,
+      "groups": 85
+    },
+    "AMIGACarb_Yuc_Centro_NFI_Apr2013": {
+      "published": 1653,
+      "grouped": 473,
+      "groups": 80
+    },
+    "AMIGACarb_Yuc_Norte_GLAS_Apr2013": {
+      "published": 2714,
+      "grouped": 1429,
+      "groups": 213
+    },
+    "AMIGACarb_Yuc_Norte_NFI_Apr2013": {
+      "published": 201,
+      "grouped": 9,
+      "groups": 2
+    },
+    "AMIGACarb_Yuc_North_2_GLAS_Apr2013": {
+      "published": 2891,
+      "grouped": 881,
+      "groups": 185
+    },
+    "AMIGACarb_Yuc_North_2_NFI_Apr2013": {
+      "published": 1645,
+      "grouped": 723,
+      "groups": 134
+    },
+    "AMIGACarb_Yuc_South_GLAS_Apr2013": {
+      "published": 1677,
+      "grouped": 421,
+      "groups": 43
+    },
+    "AMIGACarb_Yuc_South_NFI_Apr2013": {
+      "published": 1537,
+      "grouped": 352,
+      "groups": 75
+    },
+    "Kuiic1_Apr2013": {
+      "published": 111,
+      "grouped": 4,
+      "groups": 1
+    },
+    "Kuiic2_Apr2013": {
+      "published": 14,
+      "grouped": 0,
+      "groups": 0
+    },
+    "Kuiic3_Apr2013": {
+      "published": 24,
+      "grouped": 0,
+      "groups": 0
+    }
+  }
+}
